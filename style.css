@@ -1,17 +1,3 @@
-#heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: large;
-    text-align: center;
-    color: azure;
-}
-
-#subheading {
-    font-family: 'Roboto', sans-serif;
-    font-size: small;
-    text-align: center;
-    color: azure;
-}
-
 #map {
     text-align: center;
 }
