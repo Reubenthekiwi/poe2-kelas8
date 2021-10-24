@@ -1,15 +1,6 @@
-#heading {
-    font-family: 'Roboto', sans-serif;
-    font-size: large;
-    text-align: center;
-    color: azure;
-}
-
-#subheading {
-    font-family: 'Roboto', sans-serif;
-    font-size: small;
-    text-align: center;
-    color: azure;
+.jumbotron {
+    padding-top: 2rem;
+    background-color: rgb(224, 236, 255);
 }
 
 #map {
@@ -17,5 +8,5 @@
 }
 
 body {
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(193, 205, 219);
 }
