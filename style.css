@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(193, 205, 219);
+}
+
 .jumbotron {
     padding-top: 2rem;
     background-color: rgb(224, 236, 255);
@@ -6,7 +10,21 @@
 #map {
     text-align: center;
 }
+#map svg path {
+    fill: #00394f;
+    stroke: #eee;
+    stroke-width: 0.25;
+}
+#map svg path:hover {
+    fill: #006284;
+    transition: 0.4s;
+    cursor: pointer;
+}
 
-body {
-    background-color: rgb(193, 205, 219);
+#content {
+    margin: 20px;
+}
+
+#map, #about {
+    margin: 20px;;
 }
