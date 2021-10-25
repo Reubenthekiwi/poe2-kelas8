@@ -17,8 +17,8 @@ body {
     transition: 0.4s;
 }
 .clickable-map:hover {
-    fill: #c8672f;
-    stroke: #c8672f;
+    fill: #e27536;
+    stroke: #e27536;
     transition: 0.4s;
     cursor: pointer;
 }
