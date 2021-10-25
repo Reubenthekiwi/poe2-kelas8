@@ -10,13 +10,15 @@ body {
 #map {
     text-align: center;
 }
-#map svg path {
-    fill: #00394f;
-    stroke: #eee;
+.clickable-map {
+    fill: #a5501f;
+    stroke: #a5501f;
     stroke-width: 0.25;
+    transition: 0.4s;
 }
-#map svg path:hover {
-    fill: #006284;
+.clickable-map:hover {
+    fill: #c8672f;
+    stroke: #c8672f;
     transition: 0.4s;
     cursor: pointer;
 }
