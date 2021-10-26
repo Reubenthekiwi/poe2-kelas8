@@ -6,6 +6,9 @@ body {
     padding-top: 2rem;
     background-color: rgb(224, 236, 255);
 }
+.jumbotron lead {
+    margin: 20px;
+}
 
 #map {
     text-align: center;
@@ -23,7 +26,7 @@ body {
     cursor: pointer;
 }
 
-#content {
+#about {
     margin: 20px;
 }
 
