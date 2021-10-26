@@ -11,8 +11,8 @@ body {
     text-align: center;
 }
 .clickable-map {
-    fill: #a5501f;
-    stroke: #a5501f;
+    fill: #97491b;
+    stroke: #97491b;
     stroke-width: 0.25;
     transition: 0.4s;
 }
