@@ -24,14 +24,14 @@ body {
 	margin: 20px;
 }
 .clickable-map {
-	fill: #97491b;
-	stroke: #97491b;
+	fill: #432874;
+	stroke: #432874;
 	stroke-width: 0.25;
 	transition: 0.4s;
 }
 .clickable-map:hover {
-	fill: #e27536;
-	stroke: #e27536;
+	fill: #6f42c1;
+	stroke: #6f42c1;
 	transition: 0.4s;
 	cursor: pointer;
 }
