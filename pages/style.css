@@ -1,0 +1,26 @@
+#map {
+	text-align: center;
+}
+
+.clickable-map {
+	fill: #97491b;
+	stroke: #97491b;
+	stroke-width: 0.25;
+	transition: 0.4s;
+}
+
+.clickable-map:hover {
+	fill: #e27536;
+	stroke: #e27536;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+#about {
+	margin: 20px;
+}
+
+#map,
+#about {
+	margin: 20px;
+}
