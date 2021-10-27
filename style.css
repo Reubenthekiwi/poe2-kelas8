@@ -2,11 +2,19 @@ body {
 	background-color: #ced4da;
 }
 
+#start-button {
+	background-color: #290661;
+	transition: 0.4s;
+}
+#start-button:hover {
+	background-color: #450ca0;
+	transition: 0.4s;
+}
+
 .jumbotron {
 	padding-top: 10rem;
 	background-color: #6f42c1;
 }
-
 .jumbotron lead {
 	margin: 20px;
 }
@@ -15,14 +23,12 @@ body {
 	text-align: center;
 	margin: 20px;
 }
-
 .clickable-map {
 	fill: #97491b;
 	stroke: #97491b;
 	stroke-width: 0.25;
 	transition: 0.4s;
 }
-
 .clickable-map:hover {
 	fill: #e27536;
 	stroke: #e27536;
@@ -30,10 +36,13 @@ body {
 	cursor: pointer;
 }
 
+.tooltip-inner {
+	font-size: large;
+}
+
 #about {
 	margin: 20px;
 }
-
 .about-about {
 	margin-top: 3rem;
 }
@@ -42,7 +51,6 @@ body {
 	background-color: #6f42c1;
 	padding-bottom: 4rem;
 }
-
 .footer {
 	background-color: #6f42c1;
 	display: flex;
@@ -52,23 +60,20 @@ body {
 	width: 80%;
 	height: 40vh;
 }
-
 .footer-content {
 	display: flex;
 	flex-direction: column;
 	margin-right: 4rem;
 }
-
 .footer-content h2 {
 	margin-bottom: 2rem;
 }
-
 .footer-content a {
 	color: white;
 	text-decoration: none;
 	margin-bottom: 0.5rem;
+	transition: 0.3s;
 }
-
 .footer-content a:hover {
 	color: #290661;
 	transition: 0.3s ease-out;
