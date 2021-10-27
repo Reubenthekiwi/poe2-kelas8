@@ -11,6 +11,65 @@ body {
 	margin: 20px;
 }
 
+#map {
+	text-align: center;
+	margin: 20px;
+}
+
+.clickable-map {
+	fill: #97491b;
+	stroke: #97491b;
+	stroke-width: 0.25;
+	transition: 0.4s;
+}
+
+.clickable-map:hover {
+	fill: #e27536;
+	stroke: #e27536;
+	transition: 0.4s;
+	cursor: pointer;
+}
+
+#about {
+	margin: 20px;
+}
+
 .about-about {
 	margin-top: 3rem;
+}
+
+.footer-container {
+	background-color: #6f42c1;
+	padding-bottom: 4rem;
+}
+
+.footer {
+	background-color: #6f42c1;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding-top: 2rem;
+	width: 80%;
+	height: 40vh;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: column;
+	margin-right: 4rem;
+}
+
+.footer-content h2 {
+	margin-bottom: 2rem;
+}
+
+.footer-content a {
+	color: white;
+	text-decoration: none;
+	margin-bottom: 0.5rem;
+}
+
+.footer-content a:hover {
+	color: #290661;
+	transition: 0.3s ease-out;
 }
