@@ -1,35 +1,16 @@
 body {
-    background-color: rgb(193, 205, 219);
+	background-color: #ced4da;
 }
 
 .jumbotron {
-    padding-top: 2rem;
-    background-color: rgb(224, 236, 255);
+	padding-top: 10rem;
+	background-color: #6f42c1;
 }
+
 .jumbotron lead {
-    margin: 20px;
+	margin: 20px;
 }
 
-#map {
-    text-align: center;
-}
-.clickable-map {
-    fill: #97491b;
-    stroke: #97491b;
-    stroke-width: 0.25;
-    transition: 0.4s;
-}
-.clickable-map:hover {
-    fill: #e27536;
-    stroke: #e27536;
-    transition: 0.4s;
-    cursor: pointer;
-}
-
-#about {
-    margin: 20px;
-}
-
-#map, #about {
-    margin: 20px;;
+.about-about {
+	margin-top: 3rem;
 }
