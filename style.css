@@ -12,11 +12,14 @@ body {
 }
 
 .jumbotron {
-	padding-top: 10rem;
+	padding-top: 5%;
 	background-color: #6f42c1;
 }
 .jumbotron lead {
 	margin: 20px;
+}
+.jumbotron svg {
+	padding-top: 5%;
 }
 
 #map {
