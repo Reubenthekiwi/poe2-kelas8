@@ -32,6 +32,7 @@ body {
 .clickable-map:hover {
 	fill: #6f42c1;
 	stroke: #6f42c1;
+	cursor: pointer;
 	transition: 0.4s;
 }
 
