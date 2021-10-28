@@ -1,3 +1,5 @@
+AOS.init();
+
 function gotoSumatraPage() {
 	window.location.href = "islands/sumatra.html";
 }
