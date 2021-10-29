@@ -1,7 +1,13 @@
+/* edit existing components */
+
 body {
 	background-color: #ced4da;
 }
 
+/* custom components */
+
+/* index.html */
+/* start button */
 #start-button {
 	background-color: #290661;
 	transition: 0.4s;
@@ -11,6 +17,7 @@ body {
 	transition: 0.4s;
 }
 
+/* jumbotron */
 .jumbotron {
 	padding-top: 10%;
 	background-color: #6f42c1;
@@ -22,6 +29,7 @@ body {
 	padding-top: 10%;
 }
 
+/* the interactive map */
 #map {
 	text-align: center;
 	margin: 20px;
@@ -39,10 +47,7 @@ body {
 	transition: 0.4s;
 }
 
-.tooltip-inner {
-	font-size: large;
-}
-
+/* the about section */
 #about {
 	margin: 20px;
 }
@@ -50,6 +55,7 @@ body {
 	margin-top: 3rem;
 }
 
+/* the footer */
 .footer-container {
 	background-color: #6f42c1;
 	padding-bottom: 4rem;
@@ -80,4 +86,9 @@ body {
 .footer-content a:hover {
 	color: #290661;
 	transition: 0.3s ease-out;
+}
+
+/* the tooltip for the map */
+.tooltip-inner {
+	font-size: large;
 }
