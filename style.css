@@ -1,7 +1,7 @@
 /* edit existing components */
 
 body {
-	background-color: #ced4da;
+	background-color: #d2ced8;
 }
 
 /* custom components */
@@ -45,6 +45,11 @@ body {
 	stroke: #6f42c1;
 	cursor: pointer;
 	transition: 0.4s;
+}
+.unclickable-map {
+	fill: #1a1a1a;
+	stroke: #1a1a1a;
+	stroke-width: 0.25;
 }
 
 /* the about section */

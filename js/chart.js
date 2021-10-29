@@ -23,11 +23,13 @@ function createChart(context, islandName, islandData) {
     });
 }
 
+// the chart data for every islands
 const DATA = {
     Sumatra: [66.3, 26.9, 4.31, 2.35, 0.11, 0.03],
     Jawa: [97.26, 1.7, 0.76, 0.18, 0.11, 0.01]
 }
 
+// create the chart itself
 var chartElement = document.getElementById("chart")
 var context = chartElement.getContext("2d"), elementName = chartElement.getAttribute("Name");
 const chartcreateChart = createChart(context, elementName, DATA[elementName]);
