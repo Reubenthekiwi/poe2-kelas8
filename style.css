@@ -17,15 +17,15 @@ body {
 	transition: 0.4s;
 }
 
-/* jumbotron */
-.jumbotron {
-	padding-top: 10%;
+/* the page's title */
+#title {
+	padding-top: 20%;
 	background-color: #6f42c1;
 }
-.jumbotron lead {
+#title lead {
 	margin: 20px;
 }
-.jumbotron svg {
+#title svg {
 	padding-top: 10%;
 }
 

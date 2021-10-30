@@ -21,10 +21,10 @@
 
 <body>
     <!-- Jumbotron. -->
-    <div class="jumbotron text-center">
-        <h1 class="display-4 text-white">Unity in Diversity</h1>
-        <p class="lead text-white">Ayo belajar toleransi!</p>
-        <a class="btn btn-lg text-white" id="start-button" href="#map" role="button">
+    <div id="title" class="jumbotron text-center">
+        <h1 class="display-2 text-white">Unity in Diversity</h1>
+        <p class="lead text-white">by Project of Entrepreneur Group 3</p><br>
+        <a class="btn btn-lg text-white" id="start-button" href="#map" role="button" style="margin-bottom: 10%;">
             Ayo mulai!
         </a>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -37,8 +37,8 @@
     <!-- The interactive map containter -->
     <section id="map">
         <br>
-        <h1 class="text-center text-black">Agama di Indonesia</h1>
-        <h2 class="text-center text-black">Hover over the map...</h2>
+        <h1 class="display-4 text-center text-black">Agama di Indonesia</h1>
+        <p class="lead text-center text-black">Klik salah satu pulau...</p>
         <br>
 
         <!-- the interactive map itself -->
@@ -89,15 +89,24 @@
 
     <!-- the about section -->
     <section id="about">
-        <h1 class="text-center text-black" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+        <h1 class="display-5 text-center text-black" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
             Tentang
         </h1>
         <p class="about-about text-center" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            Sebuah website sederhana namun juga interaktif yang akan memudahkan
-            pengunjung website ini mengetahui dan
-            mempelajari tentang keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi
-            perbedaan tersebut.
+            Sebuah website sederhana dan interaktif yang akan memudahkan kita untuk mengetahui dan mempelajari tentang keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi perbedaan tersebut.
         </p>
+    </section>
+
+    <br><br>
+    <!-- the story section -->
+    <section id="story">
+        <h1 class="display-5 text-center text-black" data-aos="fade-right" data-aos-anchor-placement="center-bottom">
+            Pengalaman Beberapa Teman
+        </h1>
+        <!-- the script in js/cards.js will handle the creation of new story cards -->
+        <div class="container-fluid" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div id="sc-row" class="row flex-row flex-nowrap m-5" style="overflow-x: auto;"></div>
+        </div>
     </section>
 
     <!-- svg to make the footer look good -->
@@ -109,12 +118,24 @@
 
     <!-- the footer itself -->
     <div class="footer-container">
-        <section class="footer text-white text-center">
+        <section class="footer d-flex justify-content-lg-between text-white">
+            <!-- social media -->
             <div class="footer-content footer-social-media">
-                <h2>Media Sosial</h2>
-                <a href="https://www.github.com/Reubenthekiwi/poe2-kelas8">GitHub</a>
+                <h2 class="display-6">Social Media</h2>
+                <a href="https://www.github.com/Reubenthekiwi/poe2-kelas8" target="_blank">GitHub</a>
+            </div>
+
+            <!-- link to google form -->
+            <div class="footer-content footer-social-media">
+                <h2 class="display-6">Tell Us Your Story</h2>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWiDkTzDdhaNKPrrKWyFuJPyEzzDzPfVhDQNM_MQih76WdWA/viewform?usp=sf_link" target="_blank">Google Forms</a>
             </div>
         </section>
+
+        <!-- copyright -->
+        <div class="lead text-white text-center">
+            Copyright © 2021 Project of Entrepreneur Group 3 Class 8A & 8B
+        </div>
     </div>
 
     <!-- JQuery -->
@@ -136,6 +157,7 @@
 
     <!-- our own custom script -->
     <script src="js/init.js"></script>
+    <script src="js/cards.js"></script>
 </body>
 
 </html>

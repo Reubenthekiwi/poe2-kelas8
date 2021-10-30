@@ -1,7 +1,10 @@
+body {
+	background-color: #f5f0ff;
+}
+
 /* jumbotron */
 .jumbotron {
 	padding: 5%;
-	background-color: #f5f0ff;
 }
 .jumbotron lead {
 	margin: 20px;
