@@ -84,7 +84,7 @@ body {
 .footer-content a {
 	color: white;
 	text-decoration: none;
-	margin-bottom: 0.5rem;
+	margin-bottom: 2rem;
 	transition: 0.3s;
 }
 .footer-content a:hover {
