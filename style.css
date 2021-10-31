@@ -63,21 +63,20 @@ body {
 /* the footer */
 .footer-container {
 	background-color: #6f42c1;
-	padding-bottom: 4rem;
 }
 .footer {
 	background-color: #6f42c1;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 auto;
+	margin: auto;
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 	width: 80%;
 	height: 40vh;
 }
 .footer-content {
 	display: flex;
 	flex-direction: column;
-	margin-right: 4rem;
 }
 .footer-content h2 {
 	margin-bottom: 2rem;

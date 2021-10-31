@@ -7,8 +7,9 @@ const STORY_CONTAINER_ROW = document.getElementById("sc-row");
 function createCard(story) {
     // create the column
     var col = document.createElement("div");
-    col.className = "col-4";
-    col.style.maxHeight = "400px"
+    // make the column responsive for extra small, small, medium, large, and extra large screens
+    col.className = "col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-4";
+    col.style.maxHeight = "450px"
 
     // create the new card
     var newCard = document.createElement("div");
