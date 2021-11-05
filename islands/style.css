@@ -4,8 +4,14 @@ body {
 
 /* jumbotron */
 .jumbotron {
-	padding: 5%;
+	margin: 5%;
 }
 .jumbotron lead {
 	margin: 20px;
+}
+
+/* the content */
+#stories {
+	margin: 3rem;
+	margin-bottom: 3rem;
 }

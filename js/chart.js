@@ -10,12 +10,12 @@ function createChart(context, islandName, islandData) {
                     label: "Data agama-agama di " + islandName,
                     data: islandData,
                     backgroundColor: [
-                        "rgb(175, 153, 255)",
-                        "rgb(202, 173, 255)",
-                        "rgb(255, 194, 226)",
-                        "rgb(255, 173, 199)",
-                        "rgb(255, 153, 182)",
-                        "rgb(248, 202, 207)",
+                        "rgb(255, 154, 162)",
+                        "rgb(255, 183, 178)",
+                        "rgb(255, 218, 193)",
+                        "rgb(226, 240, 203)",
+                        "rgb(181, 234, 215)",
+                        "rgb(199, 206, 234)",
                     ],
                 },
             ],
@@ -26,7 +26,12 @@ function createChart(context, islandName, islandData) {
 // the chart data for every islands
 const DATA = {
     Sumatra: [66.3, 26.9, 4.31, 2.35, 0.11, 0.03],
-    Jawa: [97.26, 1.7, 0.76, 0.18, 0.11, 0.01]
+    Jawa: [97.26, 1.7, 0.76, 0.18, 0.11, 0.01],
+    Kalimantan: [],
+    Sulawesi: [],
+    SundaKecil: [],
+    Maluku: [],
+    Papua: [],
 }
 
 // create the chart itself
