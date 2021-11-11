@@ -37,4 +37,4 @@ const DATA = {
 // create the chart itself
 var chartElement = document.getElementById("chart")
 var context = chartElement.getContext("2d"), elementName = chartElement.getAttribute("Name");
-const chartcreateChart = createChart(context, elementName, DATA[elementName]);
+const chart = createChart(context, elementName, DATA[elementName]);
