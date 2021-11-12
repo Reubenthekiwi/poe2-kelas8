@@ -45,7 +45,7 @@ function createCard(story) {
 // the first value is the author's name and the second value is the story text itself
 const STORIES = [
     ["Kalista Araya", "Saya seorang siswa Muslim di sekolah Katolik, SMP Santa Ursula. Saya kira, saya akan di jauhi atau diejek karena berbeda agamanya, tetapi pada akhirnya saat saya berani untuk bergaul dan menyapa teman-teman, mereka menerima saya dengan baik, mereka tidak mengejek ataupun menjatuhkan saya. Dan di hari itu, saya merasa bahwa toleransi antar agama sangat kuat di lingkungan sekitar saya. Asal kalian berani untuk mencoba hal baru dan yakin kepada diri sendiri! Salam toleransi 😊"],
-    ["-", "-"],
+    ["Gianinna G Aileen H", "Pengalaman saya secara pribadi, saya pernah mengikuti beberapa kegiatan di luar sekolah. Dalam komunitas yang saya ikuti, semua anggotanya berbeda agama, terutama saya yang agamanya merupakan minoritas. Pada saat mereka menjalankan kewajiban agamanya mereka tidak pernah memaksakan saya untuk mengikuti. Saya juga tentunya harus menghormati mereka. Saya akan menunggu mereka sampai selesai beribadah, dan setelah itu melanjutkan aktivitas yang sedang kami lakukan."],
     ["-", "-"],
     ["-", "-"],
 ]

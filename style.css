@@ -7,6 +7,11 @@ body {
 /* custom components */
 
 /* index.html */
+
+.p {
+	font-size: 1.2rem;
+}
+
 /* start button */
 #start-button {
 	background-color: #290661;
