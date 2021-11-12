@@ -56,8 +56,10 @@ body {
 #about {
 	margin: 20px;
 }
-.about-about {
-	margin-top: 3rem;
+
+/* the comparison table */
+#comparison {
+	margin: 40px;
 }
 
 /* the footer */

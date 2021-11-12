@@ -43,7 +43,7 @@ function createCard(story) {
 
 // stories to be added to the page
 // the first value is the author's name and the second value is the story text itself
-const STORIES = [ // these are still dummy texts :)
+const STORIES = [
     ["Kalista Araya", "Saya seorang siswa Muslim di sekolah Katolik, SMP Santa Ursula. Saya kira, saya akan di jauhi atau diejek karena berbeda agamanya, tetapi pada akhirnya saat saya berani untuk bergaul dan menyapa teman-teman, mereka menerima saya dengan baik, mereka tidak mengejek ataupun menjatuhkan saya. Dan di hari itu, saya merasa bahwa toleransi antar agama sangat kuat di lingkungan sekitar saya. Asal kalian berani untuk mencoba hal baru dan yakin kepada diri sendiri! Salam toleransi 😊"],
     ["-", "-"],
     ["-", "-"],
