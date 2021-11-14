@@ -18,7 +18,26 @@
 
 <body>
     <div class="jumbotron text-center">
-        <h1 class="display-3 text-center text-black">Sumatra</h1>
+        <!-- Switch languages dropdown. -->
+        <div class="text-end px-5">
+            <div class="btn-group">
+                <button type="button" class="btn text-white dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                    style="background-color: rgb(69, 12, 160);">
+                    Pilih Bahasa
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item"
+                        onclick="setCookie('language', 'indonesian', 30); getCookie('language');">
+                        Bahasa Indonesia
+                    </a></li>
+                    <li><a class="dropdown-item" onclick="setCookie('language', 'sundanese', 30);">
+                        Bahasa Sunda
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <h1 class="display-3 text-black">Sumatra</h1>
         <hr><br>
         <h2 class="display-6">Jumlah penduduk: <b>58,6 juta jiwa</b></h2>
         <br><br>
@@ -56,8 +75,7 @@
             jelasnya.
         </p>
         <p>Sumber:</p>
-        <a
-            href="https://www.republika.co.id/berita/q0alya320/5-daerah-di-sumatra-akan-diusulkan-jadi-model-desa-kerukunan">https://www.republika.co.id/berita/q0alya320/5-daerah-di-sumatra-akan-diusulkan-jadi-model-desa-kerukunan</a>
+        <a href="https://www.republika.co.id/berita/q0alya320/5-daerah-di-sumatra-akan-diusulkan-jadi-model-desa-kerukunan">https://www.republika.co.id/berita/q0alya320/5-daerah-di-sumatra-akan-diusulkan-jadi-model-desa-kerukunan</a>
     </section>
 
     <!-- Bootstrap's JS with Popper. -->
@@ -69,25 +87,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.js"></script>
 
     <script src="../js/utils.js"></script>
+    <script src="../js/lang.js"></script>
     <script src="../js/chart.js"></script>
 
     <script>
-        let languages = {
-            bahasa: {
-                story: "“Kami akan mengusukan lima daerah yang sudah diteliti ini kepada Menteri Agama untuk menjadi desa model kerukunan umat beragama,” ujar Ismail saat ditemui Republika.co.id usai seminar hasil penelitian di Bogor, Jumat, (1 / 11).Lima wilayah Sumatra yang masuk dalam penelitian ini, yaitu kerukunan umat beragama di Tungkal Ilir, Tanjung Jabung Barat.Kedua, kerukunan di Sipirok, Tapanuli Selatan, Sumatra Utara.Ketiga, toleransi dan kerjasama umat beragama di Desa Rawa Selapan, Kecamatan Candipuro, Lampung Selatan.Keempat, toleransi dan kerjasama umat beragama di Desa Lubuk Seberuk, Kecamatan Lempuing Jaya, Sumatra Selatan. Kelima, toleransi dan kerjasama antarumat beragama di Gampong Mulia, Kecamatan Kuta Alam, Banda Aceh.Dia menjelaskan, penelitian ini berawal dari keresahan Balitbang Kemenag terhadap isu - isu toleran dan inteleran saat ini.Karena, menurut dia, kebanyakan yang terekspos itu justru kasu - kasus yang intoleran.Karena itu, menurut dia, dengan melakukan penelitian ini, pihaknya ingin mengkonter isu - isu intoleran tersebut. “Kita di Litbang ingin mengkonter isu - isu intoleran itu dengan memunculkan wilayah - wilayah yang damai sebagai bukti bahwa Indonesia itu isunya tidak hanya intoleran saja, tapi daerah - daerah yang damai juga banyak di Indonesia,” ucap Ismail.Sementara itu, peneliti yang melakukan penelitian di Tungkal Ilir, M Agus Noorbani menjelaskan, penduduk di wilayah Tungkal Ilir sangat taat dalam mengamalkan agamanya masing - masing, sehingga mereka bisa hidup toleran dan rukun.Karena itu, menurut dia, Tungkal Ilir layak menjadi model desa kerukunan di Indonesia. “Jadi, dari yang saya dapat di lokasi penelitian, orang - orang di wilayah ini mereka orang yang beragamanya tinggi.Jadi, kekuatan iman mereka itulah yang membuat mereka hidup toleran,” jelasnya."
-            },
-            sundanese: {
-                story: "Kami baris ngusulkeun lima wewengkon anu geus ditalungtik ka Mentri Agama pikeun dijadikeun kampung modél.\" karukunan umat beragama,” ceuk Ismail waktu dipanggihan ku Republika.co.id sanggeus seminar hasil panalungtikan di Bogor, Jumaah(1/ 11).Lima wewengkon Sumatra kaasup kana ieu panalungtikan, nya éta karukunan umat beragama di Indonésia Tungkal Ilir, Tanjung Jabung Barat.Kadua, karukunan di Sipirok, Tapanuli Selatan, Sumatera Utara.katilu, toleransi jeung gotong royong umat beragama di Désa Rawa Selapan, Kacamatan Candipuro, Lampung Kidul.Kaopat, toleransi jeung gotong royong umat beragama di Désa Lubuk Seberuk, Kacamatan Lemrub Jaya, Sumatra Kidul. Kalima, toleransi jeung gotong royong antar umat beragama di Gampong Mulia Kacamatan Kuta Alam Banda Acéh.Anjeunna nétélakeun yén ieu panalungtikan dimimitian tina kaparigelan Balitbang Kemendagri ngeunaan masalah toleran jeung intoleran. dina waktos ayeuna.Sabab, numutkeun anjeunna, kalolobaan kasus anu kakeunaan mangrupikeun kasus intoleransi.Kusabab kitu, numutkeun anjeunna, ku ngalaksanakeun ieu panalungtikan, pihakna hoyong ngalawan pasualan intoleran ieu. \"Urang di R & D hoyong nantang masalah- masalah anu teu toleran ieu ku cara ngajantenkeun daérah damai salaku bukti yen Indonesia teh lain wae masalah intoleran, tapi oge daerah damai di loba daerah Indonésia, \" ceuk Ismail. Sedengkeun panalungtik anu ngalaksanakeun panalungtikan di Tungkal Ilir, M Agus Noorbani ngajelaskeun, warga di wewengkon Tungkal Ilir kacida taat kana agamana masing - masing, sangkan aranjeunna tiasa hirup toleran sareng rukun.Ku kituna, numutkeun anjeunna, Tungkal Ilir pantes janten kampung modél harmoni di Indonésia. “Tah, tina naon anu kuring meunang di situs panalungtikan, masarakat di wewengkon ieu aranjeunna jalma anu kacida agamana.Janten, kakuatan iman aranjeunna anu ngajantenkeun aranjeunna hirup toleran.\" anjeunna ngajelaskeun."
-            }
-        }
-
-        if (getCookie("language") === "bahasa") {
-            story.textContent = languages.bahasa.story;
-        }
-        else if (getCookie("language") === "sundanese") {
-            story.textContent = languages.sundanese.story;
-        }
-
+        setLang("Sumatra");
     </script>
 </body>
 

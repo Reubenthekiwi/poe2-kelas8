@@ -24,11 +24,11 @@ function createCard(story) {
     cardTitle.className = "card-title text-nowrap";
     cardTitle.style.overflowX = "auto"
     cardTitle.style.overflowY = "hidden"
-    cardTitle.innerHTML = story[0];
+    cardTitle.textContent = story[0];
 
     // and the main content itself
     var cardContent = document.createElement("p");
-    cardContent.innerHTML = story[1];
+    cardContent.textContent = story[1];
 
     // appending children to the contentContainer
     contentContainter.appendChild(cardTitle)
