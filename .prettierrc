@@ -1,4 +1,7 @@
 {
-  "tabWidth": 4,
-  "useTabs": true
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": false,
+	"quoteProps": "preserve",
+	"parser": "json5"
 }
