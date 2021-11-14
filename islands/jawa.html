@@ -8,7 +8,7 @@
 
     <!-- Bootstrap's CSS. -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- custom style for the website -->
     <link rel="stylesheet" href="style.css">
@@ -35,11 +35,23 @@
         <h1 class="display-5 text-center text-black mb-5">
             Stories from Jawa
         </h1>
-        <p class="text-center">
-            Senin (27/5/2019) petang, SD Kristen Petra, Jombang, kedatangan tamu dari Madrasah Ibtidaiyah (MI) Islamiyah Desa Plosogenuk, Kecamatan Perak, Kabupaten Jombang. Mereka kemduaian bermain di lapangan sekolah sembari menunggu waktu berbuka puasa. Kemudian sejumlah siswa SD Kristen Petra mengajak para siswa MI berkeliling kompleks sekolah. Mereka diajak berkeliling untuk mengunjungi ruang kelas, taman bermain, serta mengunjungi Gereja Kristen Indonesia (GKI) yang berada di lingkungan sekolah tersebut. Waktu adzan Maghrib pun tiba. Anak-anak dari MI Islamiyah berbuka puasa bersama anak-anak dari SD Kristen Petra, SD Kristen Wijana, serta anak-anak GKJW Bongsorejo dari SDN Grogol 2. Seusai buka puasa bersama, sejumlah siswa SD Kristen dibantu para guru menyiapkan tempat untuk rombongan dari MI Islamiyah melaksanakan shalat Maghrib. Sementara siswa lain tampak melayani para siswa MI Islamiyah untuk berwudhu dengan cara memegangi selang air. "Karena di sini tidak keran air untuk fasilitas wudhu, kami minta anak-anak untuk melayani wudhu dengan menggunakan selang air," ujar Kepala SD Kristen Petra Riri Nurini Setia Ningrum. Para guru dan murid yang beragama Islam kemudian salat berjemaah di depan pintu gernag Gereja Kristen Indonesia.
+        <p class="text-center" id="story">
+            Senin (27/5/2019) petang, SD Kristen Petra, Jombang, kedatangan tamu dari Madrasah Ibtidaiyah (MI) Islamiyah
+            Desa Plosogenuk, Kecamatan Perak, Kabupaten Jombang. Mereka kemduaian bermain di lapangan sekolah sembari
+            menunggu waktu berbuka puasa. Kemudian sejumlah siswa SD Kristen Petra mengajak para siswa MI berkeliling
+            kompleks sekolah. Mereka diajak berkeliling untuk mengunjungi ruang kelas, taman bermain, serta mengunjungi
+            Gereja Kristen Indonesia (GKI) yang berada di lingkungan sekolah tersebut. Waktu adzan Maghrib pun tiba.
+            Anak-anak dari MI Islamiyah berbuka puasa bersama anak-anak dari SD Kristen Petra, SD Kristen Wijana, serta
+            anak-anak GKJW Bongsorejo dari SDN Grogol 2. Seusai buka puasa bersama, sejumlah siswa SD Kristen dibantu
+            para guru menyiapkan tempat untuk rombongan dari MI Islamiyah melaksanakan shalat Maghrib. Sementara siswa
+            lain tampak melayani para siswa MI Islamiyah untuk berwudhu dengan cara memegangi selang air. "Karena di
+            sini tidak keran air untuk fasilitas wudhu, kami minta anak-anak untuk melayani wudhu dengan menggunakan
+            selang air," ujar Kepala SD Kristen Petra Riri Nurini Setia Ningrum. Para guru dan murid yang beragama Islam
+            kemudian salat berjemaah di depan pintu gernag Gereja Kristen Indonesia.
         </p>
         <p>Sumber:</p>
-        <a href="https://regional.kompas.com/read/2019/08/20/07150091/7-kisah-damai-merawat-toleransi-indonesia-?page=all">https://regional.kompas.com/read/2019/08/20/07150091/7-kisah-damai-merawat-toleransi-indonesia-?page=all</a>
+        <a
+            href="https://regional.kompas.com/read/2019/08/20/07150091/7-kisah-damai-merawat-toleransi-indonesia-?page=all">https://regional.kompas.com/read/2019/08/20/07150091/7-kisah-damai-merawat-toleransi-indonesia-?page=all</a>
     </section>
 
     <!-- Bootstrap's JS with Popper. -->
@@ -50,7 +62,27 @@
     <!-- Chart.js' JS. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.js"></script>
 
+    <script src="../js/utils.js"></script>
     <script src="../js/chart.js"></script>
+
+    <script>
+        let languages = {
+            bahasa: {
+                story: "“Kami akan mengusukan lima daerah yang sudah diteliti ini kepada Menteri Agama untuk menjadi desa model kerukunan umat beragama,” ujar Ismail saat ditemui Republika.co.id usai seminar hasil penelitian di Bogor, Jumat, (1/11). Lima wilayah Sumatra yang masuk dalam penelitian ini, yaitu kerukunan umat beragama di Tungkal Ilir, Tanjung Jabung Barat. Kedua, kerukunan di Sipirok, Tapanuli Selatan, Sumatra Utara. Ketiga, toleransi dan kerjasama umat beragama di Desa Rawa Selapan, Kecamatan Candipuro, Lampung Selatan. Keempat, toleransi dan kerjasama umat beragama di Desa Lubuk Seberuk, Kecamatan Lempuing Jaya, Sumatra Selatan. Kelima, toleransi dan kerjasama antarumat beragama di Gampong Mulia, Kecamatan Kuta Alam, Banda Aceh. Dia menjelaskan, penelitian ini berawal dari keresahan Balitbang Kemenag terhadap isu-isu toleran dan inteleran saat ini. Karena, menurut dia, kebanyakan yang terekspos itu justru kasu-kasus yang intoleran. Karena itu, menurut dia, dengan melakukan penelitian ini, pihaknya ingin mengkonter isu-isu intoleran tersebut. “Kita di Litbang ingin mengkonter isu-isu intoleran itu dengan memunculkan wilayah-wilayah yang damai sebagai bukti bahwa Indonesia itu isunya tidak hanya intoleran saja, tapi daerah-daerah yang damai juga banyak di Indonesia,” ucap Ismail. Sementara itu, peneliti yang melakukan penelitian di Tungkal Ilir, M Agus Noorbani menjelaskan, penduduk di wilayah Tungkal Ilir sangat taat dalam mengamalkan agamanya masing-masing, sehingga mereka bisa hidup toleran dan rukun. Karena itu, menurut dia, Tungkal Ilir layak menjadi model desa kerukunan di Indonesia. “Jadi, dari yang saya dapat di lokasi penelitian, orang-orang di wilayah ini mereka orang yang beragamanya tinggi. Jadi, kekuatan iman mereka itulah yang membuat mereka hidup toleran,” jelasnya."
+            },
+            sundanese: {
+                story: "“Lima wilayah anu geus ditalungtik bakal diusulkeun ka Mentri Agama pikeun dijadikeun kampung panutan pikeun karukunan umat beragama,” ceuk Ismail waktu ditepungan Republika.co.id sanggeus seminar hasil panalungtikan di Bogor, Jumaah (1/11). ). Lima wewengkon Sumatera kaasup kana ieu panalungtikan, nya éta karukunan umat beragama di Tungkal Ilir, Tanjung Jabung Barat. Kadua, karukunan di Sipirok, Tapanuli Selatan, Sumatera Utara. Katilu, toleransi jeung gotong royong umat beragama di Désa Rawa Selapan, Kacamatan Candipuro, Lampung Kidul. Kaopat, toleransi jeung gotong royong umat beragama di Désa Lubuk Seberuk Kacamatan Lemrub Jaya, Sumatera Selatan. Kalima, toleransi jeung gotong royong antar umat beragama di Gampong Mulia Kacamatan Kuta Alam Banda Acéh. Anjeunna nétélakeun yén ieu panalungtikan téh asalna tina kaparigelan Balitbang Departemen Agama ngeunaan pasualan toleran jeung intoleransi ayeuna. Sabab, numutkeun anjeunna, kalolobaan kasus anu kakeunaan mangrupikeun kasus intoleransi. Ku kituna, numutkeun anjeunna, ku ngalaksanakeun ieu panalungtikan, pihakna hoyong ngungkulan pasualan intoleransi ieu. \"Kami di R& D hoyong nantang masalah intoleransi ieu ku cara ngadatangkeun daérah damai salaku bukti yén Indonésia sanés ngan ukur masalah intoleran, tapi ogé seueur daérah damai di Indonésia, \" saur Ismail.Samentara éta, panalungtik anu ngayakeun panalungtikan di Tungkal Ilir, M Agus Noorbani, nétélakeun yén warga di wewengkon Tungkal Ilir kacida taat kana agamana masing- masing, sangkan bisa hirup rukun jeung rukun.Ku kituna, numutkeun anjeunna, Tungkal Ilir pantes janten kampung panutan karukunan di Indonésia. “Tah, tina hasil panalungtikanana, jalma- jalma di ieu wewengkon téh jalma-jalma anu kacida religiusna.Jadi, kuatna imanna nu ngajadikeun maranéhna hirup toleran,” paparna."
+            }
+        };
+
+        if (getCookie("language") === "bahasa") {
+            story.textContent = languages.bahasa.story;
+        }
+        else if (getCookie("language") === "sundanese") {
+            story.textContent = languages.sundanese.story;
+        }
+
+    </script>
 </body>
 
 </html>
