@@ -1,7 +1,7 @@
 /* edit existing components */
 
 body {
-	background-color: #d2ced8;
+	background-color: #343A40;
 }
 
 /* custom components */
@@ -14,18 +14,18 @@ body {
 
 /* start button */
 #start-button {
-	background-color: #290661;
+	background-color: #0D503C;
 	transition: 0.4s;
 }
 #start-button:hover {
-	background-color: #450ca0;
+	background-color: #13795B;
 	transition: 0.4s;
 }
 
 /* the page's title */
 #title {
 	padding-top: 20%;
-	background-color: #6f42c1;
+	background-color: #212529;
 }
 #title lead {
 	margin: 20px;
@@ -40,14 +40,14 @@ body {
 	margin: 20px;
 }
 .clickable-map {
-	fill: #432874;
-	stroke: #432874;
+	fill: #13795B;
+	stroke: #13795B;
 	stroke-width: 0.25;
 	transition: 0.4s;
 }
 .clickable-map:hover {
-	fill: #6f42c1;
-	stroke: #6f42c1;
+	fill: #20C997;
+	stroke: #20C997;
 	cursor: pointer;
 	transition: 0.4s;
 }
@@ -69,10 +69,10 @@ body {
 
 /* the footer */
 .footer-container {
-	background-color: #6f42c1;
+	background-color: #212529;
 }
 .footer {
-	background-color: #6f42c1;
+	background-color: #212529;
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
@@ -89,13 +89,13 @@ body {
 	margin-bottom: 2rem;
 }
 .footer-content a {
-	color: white;
+	color:#EAF9ED;
 	text-decoration: none;
 	margin-bottom: 2rem;
 	transition: 0.3s;
 }
 .footer-content a:hover {
-	color: #290661;
+	color: #FFFFDD;
 	transition: 0.3s ease-out;
 }
 
