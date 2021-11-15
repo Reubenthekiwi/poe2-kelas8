@@ -25,9 +25,9 @@
         <!-- Switch languages dropdown. -->
         <div class="text-end px-5">
             <div class="btn-group">
-                <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown"
-                    aria-expanded="false" style="background-color: #13795B">
-                    Pilih Bahasa
+                <button type="button" class="btn text-light dropdown-toggle" id="lang-choice"
+                    data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #13795B">
+                    Language
                 </button>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" onclick="setCookie('language', 'indonesian', 30);">
@@ -55,8 +55,8 @@
     <!-- The interactive map containter -->
     <section id="map">
         <br>
-        <h1 class="display-4 text-center text-light">Agama di Indonesia</h1>
-        <p class="lead text-center text-light">Klik salah satu pulau di bawah ini...</p>
+        <h1 class="display-4 text-center text-light" id="map-title">Agama di Indonesia</h1>
+        <p class="lead text-center text-light" id="map-hint">Klik salah satu pulau di bawah ini...</p>
         <br>
 
         <!-- the interactive map itself -->
@@ -108,11 +108,12 @@
 
     <!-- the about section -->
     <section id="about">
-        <h1 class="display-5 text-center text-light mb-5" data-aos="fade-right"
-            data-aos-anchor-placement="center-bottom">
+        <h1 class="display-5 text-center text-light mb-5" id="about-title"
+            data-aos="fade-right" data-aos-anchor-placement="center-bottom">
             Tentang
         </h1>
-        <p class="p text-center text-light" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <p class="p text-center text-light" id="about-content"
+            data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             Sebuah website sederhana dan interaktif yang akan memudahkan kita untuk mengetahui dan mempelajari tentang
             keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi perbedaan tersebut.
         </p>
@@ -164,7 +165,8 @@
     <br><br>
     <!-- the story section -->
     <section id="story">
-        <h1 class="display-5 text-center text-light mb-5" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+        <h1 class="display-5 text-center text-light mb-5" id="story-title"
+            data-aos="fade-right" data-aos-anchor-placement="top-bottom">
             Pengalaman Beberapa Teman
         </h1>
         <!-- the script in js/cards.js will handle the creation of new story cards -->
@@ -202,7 +204,7 @@
     <div class="footer-container">
         <div class="footer-content">
             <p class="lead text-light text-center" style="margin: 4rem; margin-top: 6rem; background-color: 6f42c1;">
-                Copyright © 2021 POE Group 3 Class 8A & 8B
+                Copyright © 2021<br>POE Group 3 Class 8A & 8B
             </p>
         </div>
     </div>
@@ -230,8 +232,13 @@
 
     <!-- our own custom script -->
     <script src="js/init.js"></script>
+    <script src="js/lang.js"></script>
     <script src="js/cookie.js"></script>
     <script src="js/cards.js"></script>
+
+    <script>
+        setLang("main");
+    </script>
 </body>
 
 </html>
