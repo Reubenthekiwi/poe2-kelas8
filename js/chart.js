@@ -23,7 +23,7 @@ function createChart(context, islandName, islandData) {
 						"rgb(226, 240, 203)",
 						"rgb(181, 234, 215)",
 						"rgb(199, 206, 234)",
-					],
+					]
 				},
 			],
 		},
@@ -40,6 +40,8 @@ const DATA = {
 	KepulauanMaluku: [63.57, 32.15, 3.7, 0.01, 0.17, 0.01],
 	Papua: [20.65, 63.0, 15.42, 0.06, 0.09, 0.003],
 };
+
+Chart.defaults.color = "#F8F9ED";
 
 // create the chart itself
 var chartElement = document.getElementById("chart");
