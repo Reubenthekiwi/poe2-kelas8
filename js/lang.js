@@ -10,6 +10,14 @@ const LANG_BY_PAGE = {
 
     // for index.html
     main: {
+        about: {
+            indonesian: ["Tentang Website Ini", "Sebuah website sederhana dan interaktif yang akan memudahkan kita untuk mengetahui dan mempelajari tentang keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi perbedaan tersebut."],
+            sundanese: ["Ngeunaan Website Ieu", "Situs wéb anu sederhana sareng interaktif anu bakal ngagampangkeun urang pikeun terang sareng diajar ngeunaan karagaman agama di Indonésia sareng toleransi anu kedah dijunjung dina ngungkulan éta béda-béda."],
+        },
+        howtouse: {
+            indonesian: ["Cara memakai website ini", "Scroll kebawah sempai anda menemukan sebuah peta. Klik salah satu pulau di Indonesia untuk melihat jumlah penduduk, data agama, dan cerita yang ada di pulau tersebut."],
+            sundanese: ["Kumaha ngagunakeun website ieu", "Gulung ka handap nepi ka manggihan peta. Pencét hiji pulo di Indonésia pikeun ningali total populasi, data agama, sareng carita di pulo éta."]
+        },
         start_button: {
             indonesian: ["Ayo Mulai!"],
             sundanese: ["Hayu Urang Mimitian!"],
@@ -17,10 +25,6 @@ const LANG_BY_PAGE = {
         map: {
             indonesian: ["Agama di Indonesia", "Klik salah satu pulau di bawah ini..."],
             sundanese: ["Agama di Indonésia", "Klik salah sahiji pulo di handap ieu..."],
-        },
-        about: {
-            indonesian: ["Tentang Website Ini", "Sebuah website sederhana dan interaktif yang akan memudahkan kita untuk mengetahui dan mempelajari tentang keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi perbedaan tersebut."],
-            sundanese: ["Ngeunaan Website Ieu", "Situs wéb anu sederhana sareng interaktif anu bakal ngagampangkeun urang pikeun terang sareng diajar ngeunaan karagaman agama di Indonésia sareng toleransi anu kedah dijunjung dina ngungkulan éta béda-béda."],
         },
         comparison: {
 
@@ -115,24 +119,29 @@ function setLang(page, lang) {
     // check whether the page is the index.html or not
     if (page === "main") {
         if (getCookie("language") === "indonesian") {
+            document.getElementById("about-title").textContent = LANG_BY_PAGE["main"].about.indonesian[0];
+            document.getElementById("about-content").textContent = LANG_BY_PAGE["main"].about.indonesian[1];
+            document.getElementById("howtouse-title").textContent = LANG_BY_PAGE["main"].howtouse.indonesian[0];
+            document.getElementById("howtouse-content").textContent = LANG_BY_PAGE["main"].howtouse.indonesian[1];
             document.getElementById("start-button").textContent = LANG_BY_PAGE["main"].start_button.indonesian;
             document.getElementById("map-title").textContent = LANG_BY_PAGE["main"].map.indonesian[0];
             document.getElementById("map-hint").textContent = LANG_BY_PAGE["main"].map.indonesian[1];
-            document.getElementById("about-title").textContent = LANG_BY_PAGE["main"].about.indonesian[0];
-            document.getElementById("about-content").textContent = LANG_BY_PAGE["main"].about.indonesian[1];
             document.getElementById("story-title").textContent = LANG_BY_PAGE["main"].story.indonesian;
         } else if (getCookie("language") === "sundanese") {
+            document.getElementById("about-title").textContent = LANG_BY_PAGE["main"].about.sundanese[0];
+            document.getElementById("about-content").textContent = LANG_BY_PAGE["main"].about.sundanese[1];
+            document.getElementById("howtouse-title").textContent = LANG_BY_PAGE["main"].howtouse.sundanese[0];
+            document.getElementById("howtouse-content").textContent = LANG_BY_PAGE["main"].howtouse.sundanese[1];
             document.getElementById("start-button").textContent = LANG_BY_PAGE["main"].start_button.sundanese;
             document.getElementById("map-title").textContent = LANG_BY_PAGE["main"].map.sundanese[0];
             document.getElementById("map-hint").textContent = LANG_BY_PAGE["main"].map.sundanese[1];
-            document.getElementById("about-title").textContent = LANG_BY_PAGE["main"].about.sundanese[0];
-            document.getElementById("about-content").textContent = LANG_BY_PAGE["main"].about.sundanese[1];
             document.getElementById("story-title").textContent = LANG_BY_PAGE["main"].story.sundanese;
         }
     } else {
         const story_title = document.getElementById("story-title")
         const story = document.getElementById("story");
         if (getCookie("language") === "indonesian") {
+            
             story_title.textContent = LANG_BY_PAGE[page].story.title.indonesian;
             story.textContent = LANG_BY_PAGE[page].story.indonesian;
         } else if (getCookie("language") === "sundanese") {
