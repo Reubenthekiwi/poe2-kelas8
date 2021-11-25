@@ -10,6 +10,8 @@ body {
 
 .p {
 	font-size: 1.2rem;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 /* start button */
@@ -32,6 +34,11 @@ body {
 }
 #title svg {
 	padding-top: 10%;
+}
+
+/* the how to use section */
+#howtouse-content {
+	margin-bottom: 40px;
 }
 
 /* the interactive map */

@@ -2,6 +2,17 @@ body {
 	background-color: #343A40;
 }
 
+a {
+	color:#EAF9ED;
+	text-decoration: none;
+	margin-bottom: 2rem;
+	transition: 0.3s;
+}
+a:hover {
+	color: #FFFFDD;
+	transition: 0.3s ease-out;
+}
+
 /* jumbotron */
 .jumbotron {
 	margin: 5%;

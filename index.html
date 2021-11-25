@@ -23,45 +23,22 @@
     <!-- Jumbotron. -->
     <div id="title" class="jumbotron text-center">
         <!-- Switch languages dropdown. -->
-        <div class="text-end px-5">
+        <div class="px-5">
             <div class="btn-group">
                 <button type="button" class="btn text-light dropdown-toggle" id="lang-choice" data-bs-toggle="dropdown"
                     aria-expanded="false" style="background-color: #13795B">
-                    Language
+                    Pilih Bahasa
                 </button>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" onclick="setCookie('language', 'indonesian', 30);">
                             Bahasa Indonesia
                         </a></li>
                     <li><a class="dropdown-item" onclick="setCookie('language', 'sundanese', 30);">
-                            Bahasa Sunda
+                            Basa Sunda
                         </a></li>
                 </ul>
             </div>
         </div>
-
-        <!-- the about section -->
-        <section id="about">
-            <h1 class="display-5 text-center text-light mb-5" id="about-title" data-aos="fade-right"
-                data-aos-anchor-placement="center-bottom">
-                Tentang
-            </h1>
-            <p class="p text-center text-light" id="about-content" data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom">
-                Sebuah website sederhana dan interaktif yang akan memudahkan kita untuk mengetahui dan mempelajari
-                tentang
-                keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi perbedaan tersebut.
-            </p>
-        </section>
-
-        <h2 class="fs-2 display-2 text-light" id="howtouse-title">Cara memakai website ini</h1>
-            <h4 class="fs-4 display-2 text-light" id="howtouse-content">Scroll kebawah sempai anda menemukan
-                sebuah
-                peta. Klik
-                salah satu pulau di
-                Indonesia untuk melihat jumlah
-                penduduk, data agama, dan cerita yang ada di pulau tersebut.
-        </h2>
 
         <h1 class="display-2 text-light">Unity in Diversity</h1>
         <p class="lead text-light">by Project of Entrepreneur Group 3</p><br>
@@ -75,10 +52,19 @@
         </svg>
     </div>
 
+    <h2 class="display-4 text-center text-light mb-5" id="howtouse-title">Cara menggunakan website ini</h1>
+    <p class="p text-center text-light mb-5" id="howtouse-content">Scroll kebawah sempai anda menemukan
+        sebuah
+        peta. Klik
+        salah satu pulau di
+        Indonesia untuk melihat jumlah
+        penduduk, data agama, dan cerita yang ada di pulau tersebut.
+    </p>
+
     <!-- The interactive map containter -->
     <section id="map">
         <br>
-        <h1 class="display-4 text-center text-light" id="map-title">Agama di Indonesia</h1>
+        <h1 class="display-4 text-center text-light mb-4" id="map-title">Agama di Indonesia</h1>
         <p class="lead text-center text-light" id="map-hint">Klik salah satu pulau di bawah ini...</p>
         <br>
 
@@ -127,6 +113,21 @@
                 </path>
             </svg>
         </div>
+    </section>
+
+    
+    <!-- the about section -->
+    <section id="about">
+        <h1 class="display-5 text-center text-light my-5" id="about-title" data-aos="fade-right"
+            data-aos-anchor-placement="center-bottom">
+            Tentang
+        </h1>
+        <p class="p text-center text-light" id="about-content" data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom">
+            Sebuah website sederhana dan interaktif yang akan memudahkan kita untuk mengetahui dan mempelajari
+            tentang
+            keberagaman agama di Indonesia serta toleransi yang perlu dijunjung dalam menyikapi perbedaan tersebut.
+        </p>
     </section>
 
     <br><br>

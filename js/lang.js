@@ -15,8 +15,8 @@ const LANG_BY_PAGE = {
             sundanese: ["Ngeunaan Website Ieu", "Situs wéb anu sederhana sareng interaktif anu bakal ngagampangkeun urang pikeun terang sareng diajar ngeunaan karagaman agama di Indonésia sareng toleransi anu kedah dijunjung dina ngungkulan éta béda-béda."],
         },
         howtouse: {
-            indonesian: ["Cara memakai website ini", "Scroll kebawah sempai anda menemukan sebuah peta. Klik salah satu pulau di Indonesia untuk melihat jumlah penduduk, data agama, dan cerita yang ada di pulau tersebut."],
-            sundanese: ["Kumaha ngagunakeun website ieu", "Gulung ka handap nepi ka manggihan peta. Pencét hiji pulo di Indonésia pikeun ningali total populasi, data agama, sareng carita di pulo éta."]
+            indonesian: ["Cara menggunakan website ini", "Scroll kebawah sempai anda menemukan sebuah peta. Klik salah satu pulau di Indonesia untuk melihat jumlah penduduk, data agama, dan cerita toleransi dari pulau tersebut."],
+            sundanese: ["Cara ngagunakeun website ieu", "Scroll ka handap nepi ka manggihan peta. Pencét hiji pulo di Indonésia pikeun ningali total populasi, data agama, sareng carita toléransi tina pulo éta."]
         },
         start_button: {
             indonesian: ["Ayo Mulai!"],
